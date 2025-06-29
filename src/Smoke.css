@@ -1,0 +1,23 @@
+#smoke-container {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}
+
+.smoke {
+  position: absolute;
+  top: 20%;
+  rotate: 0.1deg;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/smoke.png'); /* Put smoke.png in your /public folder */
+  background-size: contain;
+  background-repeat: no-repeat;
+  scale: 1.5;
+  opacity: 0.1;
+  transition: all 3s ease;
+}
+
+
